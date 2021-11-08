@@ -3,8 +3,8 @@ body {
 }
 
 main {
-    max-width: 1000px;
-    color: #31231D
+    max-width: 1200px;
+    color: #31231D;
 }
 
 header {
@@ -33,7 +33,7 @@ h2, h3 {
 /* Navbar */
 
 .navbar-nav {
-    float:none;
+    float: none;
     margin:0 auto;
     display: block;
     text-align: center;
@@ -45,7 +45,7 @@ h2, h3 {
 }
 
 .nav-link {
-    color: rgba(235,247,227,1) !important;
+    color: #31231D !important;
 }
 
 .navbar-toggler {
@@ -55,8 +55,12 @@ h2, h3 {
 /* Karuselli */
 
 .carousel {
-    max-width: 1000px;
+    max-width: 1200px;
     margin-bottom: 20px;
+}
+
+.d-block {
+    max-height: 550px;
 }
 
 /* Kortit */
